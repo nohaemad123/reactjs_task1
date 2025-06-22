@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import gallery1 from "../../assets/poert1.png";
 import gallery2 from "../../assets/port2.png";
 import gallery3 from "../../assets/port3.png";
-import Gallery from "../../components/gallery/gallery";
+import GalleryCard from "../../components/Gallery/GalleryCard";
 
 export default function Portfolio() {
   const galleries = [
@@ -44,7 +44,7 @@ export default function Portfolio() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-8 md:px-20 mt-5  text-lg">
           {galleries.map((gallery, index) => (
-            <Gallery key={index} gallery={gallery} />
+            <GalleryCard key={index} gallery={gallery} />
           ))}
         </div>
       </div>

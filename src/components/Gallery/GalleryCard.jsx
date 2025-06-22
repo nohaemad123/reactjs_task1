@@ -2,7 +2,7 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
-export default function Gallery({ gallery }) {
+export default function GalleryCard({ gallery }) {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
