@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import gallery1 from "../../assets/poert1.png";
 import gallery2 from "../../assets/port2.png";
 import gallery3 from "../../assets/port3.png";
-
 import Gallery from "../../components/gallery/gallery";
 
 export default function Portfolio() {
